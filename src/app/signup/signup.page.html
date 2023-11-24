@@ -1,0 +1,32 @@
+<ion-content class="ion-pading">
+  <div class="form">
+
+    <ion-img src = "assets/bg.png"></ion-img>
+
+
+    <ion-item>
+      <ion-label position="stacked">Name</ion-label>
+      <ion-input [(ngModel)]='name'></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Email</ion-label>
+      <ion-input [(ngModel)]='email'></ion-input>
+    </ion-item>
+    <br>
+    <ion-item>
+      <ion-label position="stacked">Password</ion-label>
+      <ion-input type="password" [(ngModel)]='password'></ion-input>
+    </ion-item>
+    <br>
+    <ion-item>
+      <ion-label position="stacked">Re-enter Password</ion-label>
+      <ion-input type="password" [(ngModel)]="reEnteredPassword"></ion-input>
+    </ion-item>
+    <ion-button (click)='signup()' expand='block'>Signup</ion-button>
+
+
+    <h5 (click)='login()'>Don't have account? <ion-text color='primary'>Login</ion-text>
+    </h5>
+
+  </div>
+</ion-content>

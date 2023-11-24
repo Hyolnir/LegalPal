@@ -1,0 +1,27 @@
+ion-img{
+  transform: scale(.5);
+}
+
+.container{
+  text-align: center;
+}
+
+ion-button.start{
+  display: inline-block;
+  background: linear-gradient(to right, #5DE0E6, #004AAD);
+  --background: transparent;
+  border-radius: 50px; 
+  text-align: center;
+  transform: scale(1.8);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transition: opacity 0.3s ease-in-out;
+  width: 30%;
+}
+
+.start-button:hover {
+  opacity: 0.8;
+}
+
+ion-content {
+  --background: linear-gradient(to right, #5DE0E6, #004AAD);
+}
